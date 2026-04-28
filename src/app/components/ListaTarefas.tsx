@@ -15,10 +15,10 @@ export default function ListaTarefas({ tarefasIniciais }: { tarefasIniciais: Tar
   }
 
   return (
-    <div>
-      <h1>Lista de Tarefas</h1>
+    <div className="container">
+      <h1>📋 Minhas Tarefas</h1>
 
-      <p>Total: {total}</p>
+      <p className="counter">Total de tarefas: {total}</p>
 
       <NovaTarefa onAdd={adicionar} />
 
