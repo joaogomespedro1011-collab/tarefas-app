@@ -1,8 +1,8 @@
-import { getTarefas } from "./lib/tarefas";
-import ListaTarefas from "./components/ListaTarefas";
+import { getFilmes } from "./lib/filmes";
+import ListaFilmes from "./components/ListaFilmes";
 
 export default async function Page() {
-  const tarefasIniciais = await getTarefas();
+  const filmesIniciais = await getFilmes();
 
-  return <ListaTarefas tarefasIniciais={tarefasIniciais} />;
+  return <ListaFilmes filmesIniciais={filmesIniciais} />;
 }

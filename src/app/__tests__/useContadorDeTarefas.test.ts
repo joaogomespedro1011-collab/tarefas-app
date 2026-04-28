@@ -1,5 +1,5 @@
 import { renderHook } from "@testing-library/react";
-import { useContadorDeTarefas } from "../hooks/useContadorDeTarefas";
+import { useContadorDeTarefas } from "../hooks/useContadorDeFilmes";
 
 describe("useContadorDeTarefas", () => {
   it("retorna quantidade correta", () => {

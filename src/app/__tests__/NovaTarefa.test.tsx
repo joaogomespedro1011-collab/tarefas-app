@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import NovaTarefa from "../components/NovaTarefa";
+import NovaTarefa from "../components/NovoFilme";
 
 describe("NovaTarefa", () => {
   it("renderiza input e botão", () => {
