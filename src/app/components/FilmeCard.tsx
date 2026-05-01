@@ -1,6 +1,7 @@
 "use client";
 
-import { Filme } from "../lib/filmes";
+// No arquivo FilmeCard.tsx, mude a linha 3 para:
+import { Filme } from "@prisma/client";
 
 export default function FilmeCard({
   filme,
